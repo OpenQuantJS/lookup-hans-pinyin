@@ -1,7 +1,11 @@
 # look up hans by pinyin
 
 ```
-import hansPinyinMatcher from '../src'
+npm i lookup-hans-pinyin --save
+```
+
+```
+import hansPinyinMatcher from 'lookup-hans-pinyin'
 
 const rawData = [
   '中水渔业',
