@@ -1,0 +1,50 @@
+{
+  "name": "lookup-hans-pinyin",
+  "version": "0.1.0",
+  "description": "loop up hans by pinyin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava --verbose test/* --watch",
+    "lint": "./node_modules/.bin/eslint 'src/**/*.js' 'test/**/*.js'",
+    "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "build:watch": "./node_modules/babel-cli/bin/babel.js src --out-dir lib --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanyl/lookup-hans-pinyin.git"
+  },
+  "keywords": [
+    "fuzzy",
+    "array",
+    "match"
+  ],
+  "author": "Ruan Yulong <ruanyu1@gmail.com> (http://github.com/ruanyl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanyl/lookup-hans-pinyin/issues"
+  },
+  "homepage": "https://github.com/ruanyl/lookup-hans-pinyin",
+  "dependencies": {
+    "array-fuzzy-match": "^0.2.0",
+    "babel-runtime": "^6.23.0",
+    "pinyin": "^2.8.0",
+    "ramda": "^0.23.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
+}
