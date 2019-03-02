@@ -1,6 +1,6 @@
 {
   "name": "lookup-hans-pinyin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "loop up hans by pinyin",
   "main": "lib/index.js",
   "scripts": {
