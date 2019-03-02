@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "loop up hans by pinyin",
   "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "build": "./node_modules/.bin/tsc --declaration",
     "prepublish": "npm run build",
@@ -15,9 +16,7 @@
     "url": "https://github.com/ruanyl/lookup-hans-pinyin.git"
   },
   "keywords": [
-    "fuzzy",
-    "array",
-    "match"
+    "汉字拼音检索"
   ],
   "author": "Ruan Yulong <ruanyu1@gmail.com> (http://github.com/ruanyl)",
   "license": "MIT",
